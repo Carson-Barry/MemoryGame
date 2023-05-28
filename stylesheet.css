@@ -1,0 +1,76 @@
+body {
+    background-color: aliceblue;
+}
+
+#title_screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+}
+
+#game_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0.1rem;
+}
+
+#title_screen {
+    opacity: 100%;
+}
+
+#game_screen {
+    position: fixed;
+    margin-top: -38rem;
+    opacity: 0%;
+    visibility: hidden;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+}
+
+h1, h2 {
+    color: purple;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 7rem;
+    margin-bottom: 0%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+
+#start_button {
+    display: block;
+    background-color: dodgerblue;
+    border-radius: 0.25rem;
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+    width: 15rem;
+    height: 5rem;
+    margin-top: 100px;
+}
+#start_button:hover {
+    background-color: cornflowerblue;
+}
+#start_button:active {
+    background-color: lightgray;
+}
+
+img {
+    width: 12.5%;
+    height: 12.5%;
+    margin: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
